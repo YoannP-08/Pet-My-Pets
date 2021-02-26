@@ -1,0 +1,290 @@
+/* Mobile */
+
+/* Desktop */
+.containerUsers{
+    width: 60%;
+    height: 100vh;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.tableBody tr td {
+    text-align: center;
+}
+
+.background{
+    width: 100%;
+    height: 100%;
+    background-color:#eaf1f8;
+    border:2px solid #eaf1f8;
+    border-radius:20px;
+}
+
+
+.adminTable{
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    border:1px solid white;
+    border-collapse: collapse;
+
+}
+
+
+
+.fullHeight{
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+}
+
+
+.containerLogo{
+    margin-left: 25px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.btnDashboard{
+    padding-left: 25px;
+    padding-bottom: 30px;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.containerAddUser{
+    position:fixed;
+    background-color:white;
+    height: 600px;
+    width: 600px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1010;
+    border-radius:15px
+}
+
+.overlay{
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.4; 
+}
+
+.transition{
+    transition-delay: 5s;
+}
+
+.profile{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.profileOne img{
+    width: 50px;
+}
+.profileOne div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 15px;
+}
+
+
+.titleTab{
+    text-align: start;
+}
+.titleTab p{
+    margin-left: 20px;
+}
+
+.profileOne{
+    display: flex;
+    justify-content: flex-start; 
+    margin-left: 20px;
+}
+
+.tableBody tr td button{
+    width: 100px;
+    height: 30px;
+    background-color:#EF5350;
+    color: white;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.26);
+    font-weight: 500;
+    border: 1px solid #EF5350;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+
+}
+.tableBody tr td button:hover{
+    transition: .4s;
+    background: #FFF;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.26);
+    border: 1px solid #FFF;
+    color:#EF5350;
+}
+.tdBtn div{
+    text-align: start;
+}
+
+.adminTable thead tr{
+    height: 50px;
+    border-radius: 30px;
+}
+
+.btnDashboard button{
+    width: 150px;
+    transition: .4s;
+    background: #FFF;
+    border-radius: 6px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.26);
+    border: 1px solid #FFF;
+    height: 30px;
+    outline: none;
+    cursor: pointer;
+}
+.btnDashboard button:hover{
+    transition: .4s;
+    background: #FFF;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.26);
+    border: 1px solid #FFF;
+}
+.btnDashboard button:active{
+    transition: .2s;
+    background: #FFF;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    border: 1px solid #FFF;  
+}
+
+.addModalContainer form div {
+    margin-bottom: 5px;
+}
+
+.titleTab:first-child p{
+    margin-left: 20px;
+    background-color: #eaf1f8;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 40px;
+    padding-top: 13px;
+    padding-left: 5px;
+}
+
+.titleTab p {
+    padding-top: 13px;
+    background-color: #eaf1f8;
+    height: 40px;
+    margin-left: 0px;
+}
+
+.titleTab:last-child p{
+    margin-right: 20px;
+    background-color: #eaf1f8;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 40px;
+    padding-top: 13px;
+    padding-left: 5px;
+}
+
+.adminTable tbody tr:hover{
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    border-radius: 20px;
+
+}
+
+.tableBody td a{
+    color:black;
+    text-decoration: none;
+
+}
+
+.addModalContainer{
+
+}
+.addModalContainer form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.addModalContainer form  div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.addModalContainer form  div input{
+    background-color: #eaf1f8;
+    height: 30px;
+    border-radius: 10px;
+    border:1px solid #eaf1f8;
+    outline: none;
+}
+.addModalContainer form:last-child {
+    align-items: center;
+}
+.addModalContainer form  div input:hover{
+    border:1px solid #FFA726;
+}
+.addModalContainer form button{
+    width: 200px;
+    cursor: pointer;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 15px;
+    height: 30px;
+    border-radius: 10px;
+    outline: none;
+    background-color: #FFA726;
+    color:white;
+    border: 1px solid #FFA726;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.26);
+}
+.addModalContainer form button:hover{
+    background-color: white;
+    color:#FFA726;;
+    border: 1px solid #FFA726;
+    transition: .4s;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.26);
+    
+}
+
+.headerAddModal {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.headerAddModal img {
+    width: 20px;
+    cursor: pointer;
+    margin-right: 25px;
+}
+.headerAddModal h1 {
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.tableBody tr a{
+    color: black;
+    text-decoration: none;
+
+  }
+  
+
+
+
+
+
+
+
+
+

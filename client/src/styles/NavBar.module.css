@@ -1,0 +1,187 @@
+/* Phone */
+
+/* Desktop */
+
+.containerNav {
+  font-family: "Strait", sans-serif;
+  height: 70px;
+  width: 100%;
+  background: linear-gradient(270deg, #51956B 0%, #68FFA4 49.89%, #51956B 100%), #5EB781;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.containerLogo {
+  margin-left: 25px;
+}
+
+.containerLink {
+  margin-right: 5%;
+  width: 30%;
+}
+
+.containerLink ul{
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+.containerLink ul a{
+  color: black;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.displayNone{
+  display: none;
+}
+
+
+
+/* AdminNav Desktop */
+
+.containerAdminNav{
+  width: 15%;
+}
+
+.adminNav{
+  padding-top: 20px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+.adminNavLink{
+  width: 100%;
+  align-items: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.adminNavLink div a li{
+  color:black;
+  list-style: none;
+  text-align: center;
+}
+.adminNavLink div a li:hover{
+  background-color: white;
+  color:#FFA726
+}
+.link div:hover{
+  border-right: solid 4px #FFA726; ;
+}
+
+.link{
+    width: 100%;
+    align-items: center;
+}
+.link div{
+    width: 100%;
+    padding-left: 30%;
+    height: 35px;
+  
+}
+
+
+
+.adminNavLink div a {
+
+  text-decoration: none;
+}
+
+.adminLogOut li{
+  list-style: none;
+  margin-left: 20px;
+}
+.containerWidthAdminNav{
+  width:20%
+}
+
+.link{
+  margin-top:30px;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.link div{
+  display: flex;
+  align-items: center;
+}
+.link div a {
+  margin-left: 15px;
+}
+
+.adminNavLogo{
+  padding-top: 50px;
+}
+
+.adminLogOut{
+  display: flex;
+}
+
+.adminLogOut img{
+  width: 20px;
+
+}
+
+.dashboard{
+  width: 16px;
+}
+.statistic{
+  width: 20px;
+}
+.users{
+  width: 24px;
+}
+.posts{
+  width: 20px;
+}
+.ads{
+  width: 20px;
+}
+
+
+
+.adminLogOut li:hover{
+  color: #FFA726;
+  background-color: white;
+}
+.adminLogOut:hover{
+  border-right: solid 4px #FFA726; ;
+}
+.adminLogOut li {
+  align-self: center;
+  cursor: pointer;
+}
+.adminLogOut{
+  width: 100%;
+  padding-left: 30%;
+  height: 35px;
+
+}
+
+.none{
+  display: none;
+}
+
+.adminWidth {
+  width: 20%;
+}
+
+
+@media (max-width: 768px) {
+  .containerLink {
+    margin-right: 20%;
+    width: 30%;
+  }
+}
+
+
+
+

@@ -1,0 +1,23 @@
+{
+  "name": "animals",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "doc": "jsdoc -c jsdoc.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EpitechIT2020/C-COD-260-PAR-2-1-ecp-estelle.thou.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EpitechIT2020/C-COD-260-PAR-2-1-ecp-estelle.thou/issues"
+  },
+  "homepage": "https://github.com/EpitechIT2020/C-COD-260-PAR-2-1-ecp-estelle.thou#readme",
+  "dependencies": {
+    "jsdoc": "^3.6.6"
+  }
+}

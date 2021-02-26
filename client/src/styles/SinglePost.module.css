@@ -1,0 +1,15 @@
+/* Desktop */
+
+.containerSingleUser{
+    width: 60%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.containerBorder{
+    width: 100%;
+    height: 100%;
+    background-color: #eaf1f8;
+    border: 2px solid #eaf1f8;
+    border-radius: 20px;
+}

@@ -1,0 +1,17 @@
+/* Desktop */
+.button {
+    background-color: rgb(220, 38, 38);
+    border: 0.1rem solid rgb(220, 38, 38);
+    border-radius: 0.5rem;
+    color: whitesmoke;
+    cursor: pointer;
+    font-family: "Strait", sans-serif;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    outline: none;
+}
+
+.container {
+    margin-bottom: 2rem;
+    margin-left: 8rem;
+}

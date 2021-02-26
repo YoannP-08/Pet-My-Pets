@@ -1,0 +1,96 @@
+/* Desktop */
+
+.containerSingleUser{
+    width: 60%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.containerBorder{
+    width: 100%;
+    height: 100%;
+    background-color: #eaf1f8;
+    border: 2px solid #eaf1f8;
+    border-radius: 20px;
+}
+
+
+
+.addModalContainer form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.addModalContainer form  div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.addModalContainer form  div input{
+    background-color: #eaf1f8;
+    height: 30px;
+    border-radius: 10px;
+    border:1px solid #eaf1f8;
+    outline: none;
+}
+.addModalContainer form:last-child {
+    align-items: center;
+}
+.addModalContainer form  div input:hover{
+    border:1px solid #FFA726;
+}
+.addModalContainer form  div{
+    margin-bottom: 10px;
+}
+.addModalContainer form button{
+    width: 200px;
+    cursor: pointer;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 15px;
+    height: 30px;
+    border-radius: 10px;
+    outline: none;
+    background-color: #FFA726;
+    color:white;
+    border: 1px solid #FFA726;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.26);
+}
+.addModalContainer form button:hover{
+    background-color: white;
+    color:#FFA726;;
+    border: 1px solid #FFA726;
+    transition: .4s;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.26);
+    
+}
+
+.headerAddModal {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.headerAddModal img {
+    width: 20px;
+    cursor: pointer;
+    margin-right: 25px;
+}
+.headerAddModal h1 {
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+}
+.containerAddUser{
+    position:fixed;
+    background-color:white;
+    height: 400px;
+    width: 600px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1010;
+    border-radius:15px
+}
+

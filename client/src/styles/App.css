@@ -1,0 +1,10 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /*font-size: 10px;*/
+}
+body {
+  background-color: #2f3542;
+  font-family: "Strait", sans-serif;
+}

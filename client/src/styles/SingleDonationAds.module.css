@@ -1,0 +1,294 @@
+/* Phone */
+
+/* Desktop */
+.containerSingleUser{
+  width: 60%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.containerBorder{
+  width: 100%;
+  height: 100%;
+  background-color: #eaf1f8;
+  border: 2px solid #eaf1f8;
+  border-radius: 20px;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+}
+
+
+.containerSingle{
+  margin-top: 5%;
+  margin-left: 12%;
+  margin-right: 5%;
+  color: whitesmoke;
+  display: flex;
+}
+.containerImg{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15%;
+}
+
+.subContainerSingle{
+  margin-left: 5%;
+  margin-top: 1%;
+}
+
+.titleSingle{
+  font-family: "Strait", sans-serif;
+  display: flex;
+  width: 100%;
+  font-size: 2rem;
+  flex-wrap: wrap;
+}
+
+.spanSingle{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.containerQuoteSingle{
+  margin-top: 80px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  border: solid 0.5px rgba(245, 245, 245, 0.63);
+  border-radius: 20px;
+  padding: 5%;
+}
+
+.quoteSingle{
+  color: rgb(5, 155, 105);
+  font-size: 6rem;
+  margin-right: 3%;
+}
+
+.quoteSingle2{
+  color: rgb(5, 155, 105);
+  font-size: 6rem;
+  margin-left: 3%;
+  align-self: flex-end;
+}
+
+.descSingle{
+  color: rgb(255, 255, 255);
+  width: 100%;
+  font-size: 1.4rem;
+  margin-left: 1%;
+}
+
+.iconSingle{
+  display: flex;
+  margin-top: 5%;
+  align-items: center;
+  width: 100%;
+}
+
+.IconsEditDeleteKeeper{
+  margin-top: 50%;
+}
+
+.subIconSingle{
+  width: 1.5rem;
+  margin-right: 2%;
+}
+
+.imageSingle{
+  margin-top: 10%;
+  width: 30rem;
+  border-radius: 20px;
+}
+
+.detailsSingle{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-family: "Strait", sans-serif;
+  margin-top: 20%;
+  width: 25.5rem;
+  font-size: 1rem;
+}
+
+.containerDateSingle{
+  margin-top: 3%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.trashIconSingle{
+  width: 1.6rem;
+  margin-right: 10px;
+}
+
+.editIconSingle{
+  width: 1.6rem;
+}
+
+.modalIconSingle{
+  display: flex;
+}
+
+.mailto{
+  color: white;
+  text-decoration: none;
+}
+
+.mailto:hover{
+  color: rgb(5, 155, 105);
+}
+
+.animalSingle{
+  text-transform: uppercase;
+  color: rgb(5, 155, 105);
+}
+
+@media (max-width: 1028px) {
+
+  .titleSingle{
+    padding-left: 5%;
+    display: flex;
+    width: 80%;
+    font-size: 1.8rem;
+    flex-wrap: wrap;
+  }
+
+  .descSingle{
+    color: rgb(255, 255, 255);
+    width: 100%;
+    font-size: 1.4rem;
+    margin-left: 1%;
+  }
+
+  .imageSingle{
+    width: 25rem;
+    border-radius: 20px;
+  }
+
+  .containerQuoteSingle{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    border: solid 0.5px rgba(245, 245, 245, 0.63);
+    border-radius: 20px;
+    padding: 5%;
+  }
+
+  .subIconSingle{
+    width: 1rem;
+    margin-right: 5px;
+  }
+
+  .detailsSingle{
+    justify-content: space-between;
+    font-size: 1.3rem;
+    display: flex;
+    width: 20rem;
+  }
+
+  .trashIconSingle{
+    width: 1.3rem;
+    margin-right: 10px;
+  }
+
+  .subContainerSingle{
+    margin-left: 2%;
+    margin-top: 1%;
+    max-height: 600px;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .imageSingle{
+    width: 10rem;
+    border-radius: 20px;
+  }
+
+  .containerSingle{
+    margin:5%;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .imageSingle{
+    width: 14rem;
+    border-radius: 20px;
+  }
+
+  .iconSingle{
+    margin-top: 5%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .AlliconsSingle{
+    width: 100%;
+  }
+
+  .titleSingle{
+    display: flex;
+    width: 100%;
+    font-size: 1.4rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+  }
+
+    .containerQuoteSingle{
+      margin-top: 40px;
+      display: flex;
+      justify-content: center; 
+      align-items: center;
+      border: solid 0.5px rgba(245, 245, 245, 0.63);
+      border-radius: 20px;
+      padding: 3%;
+  }
+
+  .descSingle{
+    color: rgb(255, 255, 255);
+    width: 100%;
+    font-size: 1rem;
+    margin-top: 5%;
+  }
+
+  .detailsSingle{
+    width: 300px;
+    margin-top: 5%;
+    justify-content: space-between;
+    font-size: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .modalIconSingle{
+    margin-top: 40px;
+    display: flex;
+  }
+
+  .quoteSingle{
+    color: rgb(5, 155, 105);
+    font-size: 4rem;
+    margin-right: 3%;
+  }
+  
+  .quoteSingle2{
+    color: rgb(5, 155, 105);
+    font-size: 4rem;
+    margin-left: 3%;
+  }
+}
+
+
+

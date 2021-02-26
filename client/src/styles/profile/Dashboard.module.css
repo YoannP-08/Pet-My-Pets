@@ -1,0 +1,159 @@
+/* Desktop */
+.accountIcon {
+    width: 1.4rem;
+}
+
+.adsIcon {
+    width: 1.4rem;
+}
+
+.containerDashboard {
+    display: flex;
+}
+
+.containerDashboardCategory {
+    background-color: rgba(94, 100, 112, 0.452);
+    height: 100vh;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    width: 20%;
+}
+
+.containerSection {
+    align-items: baseline;
+    color: whitesmoke;
+    cursor: pointer;
+    display: flex;
+    fill: whitesmoke;
+}
+
+.containerSectionBis {
+    align-items: baseline;
+    color: rgb(5, 155, 105);
+    cursor: pointer;
+    display: flex;
+    fill: rgb(5, 155, 105);
+}
+
+.containerSection:hover {
+    color: rgb(5, 155, 105);
+    fill: rgb(5, 155, 105);
+}
+
+.passwordIcon {
+    width: 1.4rem;
+}
+
+.profileDashboardCategory {
+    font-family: "Strait", sans-serif;
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin-bottom: 2rem;
+    margin-left: 0.5rem;
+}
+
+.profileDashboardCategory:hover {
+    font-weight: bold;
+}
+
+.profileDashboardTitle {
+    background-color: rgba(94, 100, 112, 0.452);
+    color: rgb(5, 155, 105);
+    font-family: "Strait", sans-serif;
+    font-size: 3.5rem;
+    font-weight: normal;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+    .accountIcon {
+        min-width: 1.4rem;
+    }
+    
+    .adsIcon {
+        width: 1.4rem;
+    }
+
+    .passwordIcon {
+        min-width: 1.4rem;
+    }
+
+    .profileDashboardCategory {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .accountIcon {
+        min-width: 1.3rem;
+    }
+    
+    .adsIcon {
+        min-width: 1.3rem;
+    }
+
+    .containerSection {
+        align-items: center;
+        display: flex;
+        flex-direction: column; 
+        margin-right: 2rem; 
+    }
+
+    .containerSectionBis {
+        align-items: center;
+        display: flex;
+        flex-direction: column; 
+        margin-right: 2rem; 
+    }
+
+    .passwordIcon {
+        min-width: 1.3rem;
+    }
+
+    .profileDashboardCategory {
+        font-size: 1.3rem;
+        text-align: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .accountIcon {
+        min-width: 1.3rem;
+    }
+    
+    .adsIcon {
+        min-width: 1.3rem;
+    }
+
+    .containerDashboard {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .containerDashboardCategory {
+        display: flex;
+        justify-content: space-between;
+        height: auto;
+        padding-left: 0rem;
+        width: 100%;
+    }
+
+    .containerSection {
+        margin: 0rem; 
+    }
+
+    .containerSectionBis {
+        align-items: center;
+        display: flex;
+        flex-direction: column; 
+        margin: 0rem; 
+    }
+
+    .passwordIcon {
+        min-width: 1.3em;
+    }
+
+}
